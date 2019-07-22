@@ -11,5 +11,5 @@ export class person{
         }
 }
 
- humanoidA = new person("fname", "lname", 12);
+ let humanoidA = new person("fname", "lname", 12);
 
