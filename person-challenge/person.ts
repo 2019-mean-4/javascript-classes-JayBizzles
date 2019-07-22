@@ -3,7 +3,7 @@ export class person{
     lastName: string;
     age: number;
     isAlive: boolean;
-        constructor(firstName: string, lastName:string, age: number, isAlive: boolean){
+        constructor(firstName: string, lastName:string, age: number){
             this.firstName = firstName;
             this.lastName = lastName;
             this.age = age;
@@ -11,5 +11,5 @@ export class person{
         }
 }
 
-let humanoidA = new person("fname", "lname", 12, true);
+ humanoidA = new person("fname", "lname", 12);
 
