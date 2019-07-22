@@ -1,4 +1,4 @@
-export class planets{
+export class planet{
     width: number;
     color: string;
 
@@ -8,6 +8,6 @@ export class planets{
     }
 }
 
-let krypton = new planets ("blue" ,  12);
-let omicronpersei8 = new planets("green" , 56);
-let nemesis = new planets ("purple", 12);
+let krypton = new planet ("blue" ,  12);
+let omicronpersei8 = new planet("green" , 56);
+let nemesis = new planet ("purple", 12);
