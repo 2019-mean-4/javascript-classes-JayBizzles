@@ -3,11 +3,11 @@ export class person{
     lastName: string;
     age: number;
     isAlive: boolean;
-        constructor(firstName: string, lastName:string, age: number){
+        constructor(firstName: string, lastName:string, age: number, isAlive:boolean=true){
             this.firstName = firstName;
             this.lastName = lastName;
             this.age = age;
-            this.isAlive = true;
+            this.isAlive = isAlive;
         }
 }
 
